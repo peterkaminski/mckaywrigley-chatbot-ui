@@ -356,9 +356,9 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
           </div>
           <div className="text-center text-lg text-black dark:text-white">
             <div className="mb-8">{`Chatbot UI is an open source clone of OpenAI's ChatGPT UI.`}</div>
-            <div className="mb-8">This instance is hosted by <span className="bold"><a href="https://www.pathshiftpeople.com/">Path Shift People</a></span>.</div>
+            <div className="mb-8">This instance is hosted by <strong><a href="https://www.pathshiftpeople.com/">Path Shift People</a></strong>.</div>
             <div className="mb-2">
-              <span className="bold">Important:</span> Path Shift People and Chatbot UI are not affiliated with OpenAI.
+              <strong>Important:</strong>Neither Path Shift People nor Chatbot UI are<br />affiliated with OpenAI.
             </div>
           </div>
           <div className="text-center text-gray-500 dark:text-gray-400">
