@@ -384,7 +384,11 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
                 className="text-blue-500 hover:underline"
               >
                 openai.com
-              </a>, or<br/>contact <a href="mailto:support@pathshiftpeople.com">support@pathshiftpeople.com</a>
+              </a>, or<br/>send an email to <a
+	        href="mailto:support@pathshiftpeople.com"
+                target="_blank"
+                className="text-blue-500 hover:underline"
+	      >support@pathshiftpeople.com</a>
             </div>
           </div>
         </div>
